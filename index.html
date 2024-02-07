@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush's Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="#" class="logo">Portfolio.</a>
+
+            <nav class="navbar" id="myNavMenu">
+                <a href="#" style="--i:10" class="active">Home</a>
+                <a href="#" style="--i:11">About</a>
+                <a href="#" style="--i:12">Skills</a>
+                <a href="#" style="--i:13">Portfolio</a>
+                <a href="#" style="--i:14">Contact Me</a>
+            </nav>
+
+            <div class="toggle">
+                <i class='bx bx-moon toggle-icon'></i>
+            </div>
+            <div class="nav-menu-btn">
+                <i class='bx bx-horizontal-right nav-menu-icon' onclick="myMenuFunction()"></i>
+            </div>
+        </header>
+
+        <section class="home">
+            <div class="home-content">
+                <h3>Hello, I am</h3>
+                <h1>Piyush Priyadarshi</h1>
+                <p>A fresher computer science graduate with motivation and passion for developing innovative software solutions. Proficient in various computer skills and languages like HTML/CSS, JavaScript, Python, mySQL, MS Office and designing tools like Canva and a collaborative team player.</p>
+                
+                <div class="social-media">
+                    <a href="https://www.facebook.com/piyush27p" target="_blank" rel="noopener noreferrer"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://twitter.com/piyush27p" target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.instagram.com/piyushp_27/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://www.linkedin.com/in/piyush-priyadarshi-976263284/" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                </div>
+
+                <a href="./Assets/Piyush's Resume(wp).pdf" class="btn" download>Download CV</a>
+            </div>
+
+            <div class="profession-container">
+                <div class="profession-box">
+                    <div class="profession" style="--i:0">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Developer</h3>
+                    </div>
+                    <div class="profession" style="--i:1">
+                        <i class='bx bx-brain' ></i>
+                        <h3>Problem Solver</h3>
+                    </div>
+                    <div class="profession" style="--i:2">
+                        <i class='bx bx-palette'></i>
+                        <h3>Web Designer</h3>
+                    </div>
+                    <div class="profession" style="--i:3">
+                        <i class='bx bx-camera'></i>
+                        <h3>Photographer</h3>
+                    </div>
+
+                    <div class="circle"></div>
+                </div>
+                <div class="overlay"></div>
+            
+                
+            </div>
+
+            <div class="home-img">
+                <img src="./Assets/myPhoto.png" alt="Piyush's Photo">
+            </div>
+        </section>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
